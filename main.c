@@ -30,7 +30,6 @@ int main(int argc, char **argv) // assembler havent rewriten yet
 	size_t bytesRead = fread(memory, 1, FILE_SIZE, file);
 	printf("program loaded size:%lu\n", bytesRead);
 	printf("first 4 words 0x%X 0x%X 0x%X 0x%X\n", memory[0], memory[1], memory[2], memory[3]);
-	printf("execution starts\n");
 	fflush(stdout);
 
 
