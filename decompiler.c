@@ -4,7 +4,8 @@
 #include <string.h>
 
 #include "decompiler.h"
-
+// no strlen used in this project
+// because why not 
 
 
 
